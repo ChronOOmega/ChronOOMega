@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+/**
+ * Author: J. Omar Tiznado C. (Chrono)
+ * Date: 16/05/2016
+ * CSS Chrono Omega Portal Style for home page
+ */
+/* background style*/
+html {
+	
+}
+
+body {
+	/*background-color: transparent;*/
+	background: url(../img/horsehead-nebula-11081.jpg) no-repeat center
+		fixed;
+	background-size: cover;
+}
+
+h1.homeText {
+	color: #ffffff;
+}
+
+h3.homeText {
+	color: #ffffff;
+}
+
+p.homeText {
+	color: #ffffff;
+}
+
+div.homeMainDiv {
+	padding: 10px;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to buttom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1));
+	/* Standard syntax (must be last) */
+}
+
+/* ID SELECTOR */
+#signature {
+	color: #000000;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 12px;
+	text-align: right;
+}
+
+/* CLASS SELECTOR STYLES*/
+.signatureImg {
+	color: #000000;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 20px
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords"
+	content="Negocios, Economía, Finanzas, Desarrollo de Software, Historia, Tecnolgía, Vida, Estilo">
+<meta name="description" content="ChronOOmega personal portal">
+<meta name="author" content="J. Omar Tiznado C.">
+<!-- base href="http://www.chronoomega.com/" target="_blank" -->
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<link rel="stylesheet" type="text/css" href="../css/forms.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<body id="articleBody">
+	<form action="" method="post" autocomplete="on">
+		<fieldset>
+			<legend>Información Personal:</legend>
+
+			<label for="firstname">Nombre(s):</label> <br> 
+			<input type="text" id="firstname" name="firstname" value="Jaime Omar" placeholder="Nombre"> <br> 
+			
+			<label for="lastname">Apellido Paterno:</label> <br> 
+			<input 	type="text" name="lastname" id="lastname" value="Tiznado"> <br>
+				
+			<label for="maidenname">Apellido Materno:</label><br> 
+			<input type="text" name="maidenname" id="maidenname" value="Carranza"> <br>
+			 
+			<label for="email">E-mail:</label><br>
+			<input type="email" name="email" id="email" value="omar.tiznado@gmail.com"> <br>
+			
+			<label for="nationalitylist">Nacionalidad:</label> <br> 
+			<input list="nationality" name="nationalitylist" id="nationalitylist">
+			<datalist id="nationality">
+				<option value="Mexicano">
+				<option value="Estado Unidense">
+				<option value="Otro">
+			</datalist> 
+			<br>	
+			
+			<input type="submit" name="submit">
+		</fieldset>
+	</form>
+
+</body>
+</html>

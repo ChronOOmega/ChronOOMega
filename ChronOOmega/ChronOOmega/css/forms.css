@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+/**
+ * Author: J. Omar Tiznado C. (Chrono)
+ * Date: 14/05/2016
+ * CSS Chrono Omega Portal Style for forms
+ */
+/* input style*/
+input {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #575757; 
+	-webkit-transition : 0.5s; 
+	transition : 0.5s;
+	outline : none;
+	border-radius: 4px;
+	background-color: #ffffff;	
+	color: #575757;
+}
+
+input[type=text]:focus {
+	border: 3px solid #575757;
+	background-color: #575757;
+	color: #ffffff;
+}
+
+input[type=email]:focus {
+	border: 3px solid #575757;
+	background-color: #575757;
+	color: #ffffff;
+}
+
+input[name=nationalitylist]:focus {
+	border: 3px solid #575757;
+	background-color: #575757;
+	color: #ffffff;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #575757;
+    border: 3px solid #575757;
+    color: white;
+    outline : none;
+    padding: 12px 20px;
+	margin: 8px 0;
+    text-decoration: none;
+    cursor: pointer;
+}

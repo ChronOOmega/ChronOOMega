@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+/**
+ * Author: J. Omar Tiznado C. (Chrono)
+ * Date: 16/05/2016
+ * CSS Chrono Omega Portal Style for home page
+ */
+/* background style*/
+html {
+	
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+body {
+	/*background-color: transparent;*/
+	background: url(../img/horsehead-nebula-11081.jpg) no-repeat center
+		fixed;
+	background-size: cover;
+}
+
+h1.homeText {
+	color: #ffffff;
+}
+
+p.homeText {
+	color: #ffffff;
+}
+
+/** Begin Menu **/
+div.homeMenuDiv {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 0px solid #ffffff;
+	border-radius: 25px;
+	padding: 30px 30px 30px 30px;
+	width: 250px;
+	overflow: auto;
+	float: left;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to buttom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1));
+	/* Standard syntax (must be last) */
+}
+
+div.center {
+	margin: auto;
+	width: 114px;
+}
+
+#navlist li,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 114px;
+    display: block;
+}
+
+#employmentIcon {
+	-webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
+    transition: background 2s;
+	background: url('../img/employmentIcon.png');
+}
+
+#employmentIcon a:hover {
+	background: url('../img/employmentIconActive.png');
+}
+
+/** End menu **/
+div.homeMainDiv {
+	margin-left: 310px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 0px solid #ffffff;
+	border-radius: 25px;
+	padding: 30px 30px 30px 30px;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to buttom, rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1));
+	/* Standard syntax (must be last) */
+}
