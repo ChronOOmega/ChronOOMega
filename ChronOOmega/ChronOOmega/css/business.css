@@ -37,7 +37,7 @@ div.homeMenuDiv {
 	border: 0px solid #ffffff;
 	border-radius: 25px;
 	padding: 30px 30px 30px 30px;
-	width: 350px;
+	width: 250px;
 	overflow: auto;
 	float: left;
 	/*background-color: rgba(0, 0, 0, 0.5);*/
@@ -81,7 +81,7 @@ div.center {
 
 /** End menu **/
 div.homeMainDiv {
-	margin-left: 20px;
+	margin-left: 310px;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	margin-top: 20px;
