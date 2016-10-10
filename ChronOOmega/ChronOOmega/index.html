@@ -9,42 +9,54 @@
 <meta name="description" content="ChronOOmega personal portal">
 <meta name="author" content="J. Omar Tiznado C.">
 <!-- base href="http://www.chronoomega.com/" target="_blank" -->
-<link rel="stylesheet" type="text/css" href="./css/main.css">
-<link rel="stylesheet" type="text/css" href="./css/forms.css">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-
+<!-- link rel="stylesheet" type="text/css" href="./css/main.css"-->
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+<script src="./js/menu.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-
 	<header>
-		<div class="transbox">
-			<img class="headerimage" src="./img/ChronOmegaLogo_DarkBG.png" />
-			<!--  img class="headerimage" src="./img/ChronOmegaLogo_DarkBG.png" /-->
-			<!-- h1>ChronOOmega</h1 -->
+		<div class="content">
+			<hgroup>
+				<h1>
+					<img class="headerimage" src="./img/ChronOmegaLogo_DarkBG.png" />
+				</h1>
+				<i>"Imagination is more important than knowledge",</i>
+				</br>
+				<i>Albert Einstein</i>
+			</hgroup>
 		</div>
+		<div class="overlay"></div>
 	</header>
 
-	<nav>
-		<div class="transbox">
-			<ul>
-				<!-- li>Economía y Finanzas</li-->
-				<!--  li><a class="active" href="./html/home.html"
-					target="iframe_section">Inicio</a></li -->
-				<li><a href="./html/business.html" target="iframe_section">Negocios</a></li>
-				<!-- li><a href="./html/home.html"
-					target="iframe_section">Pensamientos</a></li -->
-				<!-- li>Desarrollo de Software</li -->
-				<!-- li>Historia</li -->
-				<!--  li>Tecnologia</li -->
-				<!-- li>Vida y Estilo</li -->
-				<!--  li><a href="./html/register.html" target="iframe_section">Registro</a></li -->
-				<li><a href="./html/credits.html" target="iframe_section">Créditos</a></li>
-			</ul>
-		</div>
-	</nav>
+	<section class="site">
+		<nav>
+			<a href="#">IT</a> <a href="#">Business</a>
+		</nav>
+	</section>
 
 	<section>
-		<iframe id="mainIframe" src="./html/home.html" name="iframe_section"></iframe>
+		<script>
+			var $content = $('header .content'), $blur = $('header .overlay'), wHeight = $(
+					window).height();
+
+			$(window).on('resize', function() {
+				wHeight = $(window).height();
+			});
+
+			window.requestAnimFrame = (function() {
+				return window.requestAnimationFrame
+						|| window.webkitRequestAnimationFrame
+						|| window.mozRequestAnimationFrame
+						|| function(callback) {
+							window.setTimeout(callback, 1000 / 60);
+						};
+			})();
+			
+			var scroller = new Scroller();
+			scroller.init();
+		</script>
 	</section>
 
 	<aside>
